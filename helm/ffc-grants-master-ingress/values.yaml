@@ -1,0 +1,11 @@
+environment: development
+name: ffc-ahwr-master-ingress
+namespace: ffc-ahwr
+workstream: ffc-ahwr
+
+labels: {}
+
+ingress:
+  class: nginx
+  endpoint: ffc-ahwr-farmer-apply
+  server: example.com
