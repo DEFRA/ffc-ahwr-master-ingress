@@ -7,5 +7,5 @@ labels: {}
 
 ingress:
   class: nginx
-  endpoint: ffc-ahwr-farmer-apply
+  endpoint: ffc-ahwr-farmer
   server: example.com
